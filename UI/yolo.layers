@@ -1,0 +1,186 @@
+layer                                     name  gradient   parameters                shape         mu      sigma
+    0                      model.0.conv.weight     False          864        [32, 3, 3, 3]   -0.00171       0.13 torch.float32
+    1                        model.0.bn.weight     False           32                 [32]       3.49          1 torch.float32
+    2                          model.0.bn.bias     False           32                 [32]     -0.614       2.98 torch.float32
+    3                      model.1.conv.weight     False        18432       [64, 32, 3, 3]  -0.000622     0.0359 torch.float32
+    4                        model.1.bn.weight     False           64                 [64]       3.37      0.704 torch.float32
+    5                          model.1.bn.bias     False           64                 [64]      0.439       1.18 torch.float32
+    6                  model.2.cv1.conv.weight     False         4096       [64, 64, 1, 1]   -0.00672     0.0534 torch.float32
+    7                    model.2.cv1.bn.weight     False           64                 [64]       1.79       0.95 torch.float32
+    8                      model.2.cv1.bn.bias     False           64                 [64]      0.392       1.37 torch.float32
+    9                  model.2.cv2.conv.weight     False         6144       [64, 96, 1, 1]   -0.00332     0.0476 torch.float32
+   10                    model.2.cv2.bn.weight     False           64                 [64]       1.21      0.348 torch.float32
+   11                      model.2.cv2.bn.bias     False           64                 [64]   -0.00643      0.726 torch.float32
+   12              model.2.m.0.cv1.conv.weight     False         9216       [32, 32, 3, 3]    -0.0015      0.035 torch.float32
+   13                model.2.m.0.cv1.bn.weight     False           32                 [32]        2.2      0.569 torch.float32
+   14                  model.2.m.0.cv1.bn.bias     False           32                 [32]      0.422       1.44 torch.float32
+   15              model.2.m.0.cv2.conv.weight     False         9216       [32, 32, 3, 3]   -0.00146      0.032 torch.float32
+   16                model.2.m.0.cv2.bn.weight     False           32                 [32]       1.77      0.543 torch.float32
+   17                  model.2.m.0.cv2.bn.bias     False           32                 [32]      0.832       1.43 torch.float32
+   18                      model.3.conv.weight     False        73728      [128, 64, 3, 3]   -0.00104     0.0192 torch.float32
+   19                        model.3.bn.weight     False          128                [128]       0.83      0.203 torch.float32
+   20                          model.3.bn.bias     False          128                [128]     -0.268      0.722 torch.float32
+   21                  model.4.cv1.conv.weight     False        16384     [128, 128, 1, 1]   -0.00205     0.0322 torch.float32
+   22                    model.4.cv1.bn.weight     False          128                [128]      0.821      0.371 torch.float32
+   23                      model.4.cv1.bn.bias     False          128                [128]     0.0267      0.669 torch.float32
+   24                  model.4.cv2.conv.weight     False        32768     [128, 256, 1, 1]   -0.00173     0.0266 torch.float32
+   25                    model.4.cv2.bn.weight     False          128                [128]      0.912      0.219 torch.float32
+   26                      model.4.cv2.bn.bias     False          128                [128]     -0.462      0.702 torch.float32
+   27              model.4.m.0.cv1.conv.weight     False        36864       [64, 64, 3, 3]   -0.00113     0.0203 torch.float32
+   28                model.4.m.0.cv1.bn.weight     False           64                 [64]      0.889      0.183 torch.float32
+   29                  model.4.m.0.cv1.bn.bias     False           64                 [64]     -0.689      0.676 torch.float32
+   30              model.4.m.0.cv2.conv.weight     False        36864       [64, 64, 3, 3]   -0.00112     0.0188 torch.float32
+   31                model.4.m.0.cv2.bn.weight     False           64                 [64]      0.775      0.208 torch.float32
+   32                  model.4.m.0.cv2.bn.bias     False           64                 [64]     -0.117      0.605 torch.float32
+   33              model.4.m.1.cv1.conv.weight     False        36864       [64, 64, 3, 3]   -0.00143     0.0187 torch.float32
+   34                model.4.m.1.cv1.bn.weight     False           64                 [64]      0.771      0.104 torch.float32
+   35                  model.4.m.1.cv1.bn.bias     False           64                 [64]      -1.04      0.563 torch.float32
+   36              model.4.m.1.cv2.conv.weight     False        36864       [64, 64, 3, 3]   -0.00109     0.0177 torch.float32
+   37                model.4.m.1.cv2.bn.weight     False           64                 [64]       1.08      0.267 torch.float32
+   38                  model.4.m.1.cv2.bn.bias     False           64                 [64]      0.226      0.684 torch.float32
+   39                      model.5.conv.weight     False       294912     [256, 128, 3, 3]  -0.000241     0.0115 torch.float32
+   40                        model.5.bn.weight     False          256                [256]      0.891      0.185 torch.float32
+   41                          model.5.bn.bias     False          256                [256]      -0.55      0.557 torch.float32
+   42                  model.6.cv1.conv.weight     False        65536     [256, 256, 1, 1]   -0.00175     0.0199 torch.float32
+   43                    model.6.cv1.bn.weight     False          256                [256]      0.998      0.367 torch.float32
+   44                      model.6.cv1.bn.bias     False          256                [256]     -0.296      0.579 torch.float32
+   45                  model.6.cv2.conv.weight     False       131072     [256, 512, 1, 1]   -0.00117     0.0167 torch.float32
+   46                    model.6.cv2.bn.weight     False          256                [256]      0.936      0.183 torch.float32
+   47                      model.6.cv2.bn.bias     False          256                [256]     -0.884      0.625 torch.float32
+   48              model.6.m.0.cv1.conv.weight     False       147456     [128, 128, 3, 3]   -0.00096      0.012 torch.float32
+   49                model.6.m.0.cv1.bn.weight     False          128                [128]       1.07      0.146 torch.float32
+   50                  model.6.m.0.cv1.bn.bias     False          128                [128]      -1.11      0.461 torch.float32
+   51              model.6.m.0.cv2.conv.weight     False       147456     [128, 128, 3, 3]  -0.000828     0.0117 torch.float32
+   52                model.6.m.0.cv2.bn.weight     False          128                [128]      0.916      0.204 torch.float32
+   53                  model.6.m.0.cv2.bn.bias     False          128                [128]     -0.376      0.483 torch.float32
+   54              model.6.m.1.cv1.conv.weight     False       147456     [128, 128, 3, 3]  -0.000909      0.012 torch.float32
+   55                model.6.m.1.cv1.bn.weight     False          128                [128]      0.965      0.127 torch.float32
+   56                  model.6.m.1.cv1.bn.bias     False          128                [128]      -1.26      0.558 torch.float32
+   57              model.6.m.1.cv2.conv.weight     False       147456     [128, 128, 3, 3]  -0.000787     0.0114 torch.float32
+   58                model.6.m.1.cv2.bn.weight     False          128                [128]        1.4      0.222 torch.float32
+   59                  model.6.m.1.cv2.bn.bias     False          128                [128]     -0.156      0.506 torch.float32
+   60                      model.7.conv.weight     False  1.17965e+06     [512, 256, 3, 3]  -0.000426    0.00714 torch.float32
+   61                        model.7.bn.weight     False          512                [512]        1.1      0.131 torch.float32
+   62                          model.7.bn.bias     False          512                [512]     -0.844      0.247 torch.float32
+   63                  model.8.cv1.conv.weight     False       262144     [512, 512, 1, 1]   -0.00158     0.0125 torch.float32
+   64                    model.8.cv1.bn.weight     False          512                [512]       1.11        0.2 torch.float32
+   65                      model.8.cv1.bn.bias     False          512                [512]     -0.837      0.513 torch.float32
+   66                  model.8.cv2.conv.weight     False       393216     [512, 768, 1, 1]   -0.00107     0.0107 torch.float32
+   67                    model.8.cv2.bn.weight     False          512                [512]       1.24      0.163 torch.float32
+   68                      model.8.cv2.bn.bias     False          512                [512]     -0.726      0.279 torch.float32
+   69              model.8.m.0.cv1.conv.weight     False       589824     [256, 256, 3, 3]  -0.000492     0.0081 torch.float32
+   70                model.8.m.0.cv1.bn.weight     False          256                [256]       1.23      0.145 torch.float32
+   71                  model.8.m.0.cv1.bn.bias     False          256                [256]      -1.01      0.484 torch.float32
+   72              model.8.m.0.cv2.conv.weight     False       589824     [256, 256, 3, 3]  -0.000666    0.00786 torch.float32
+   73                model.8.m.0.cv2.bn.weight     False          256                [256]       1.62      0.246 torch.float32
+   74                  model.8.m.0.cv2.bn.bias     False          256                [256]     -0.573      0.319 torch.float32
+   75                  model.9.cv1.conv.weight     False       131072     [256, 512, 1, 1]   -0.00236      0.015 torch.float32
+   76                    model.9.cv1.bn.weight     False          256                [256]      0.944      0.197 torch.float32
+   77                      model.9.cv1.bn.bias     False          256                [256]      0.786      0.438 torch.float32
+   78                  model.9.cv2.conv.weight     False       524288    [512, 1024, 1, 1]  -8.15e-05     0.0099 torch.float32
+   79                    model.9.cv2.bn.weight     False          512                [512]      0.981      0.174 torch.float32
+   80                      model.9.cv2.bn.bias     False          512                [512]      -1.31      0.508 torch.float32
+   81                 model.12.cv1.conv.weight     False       196608     [256, 768, 1, 1]   -0.00132     0.0156 torch.float32
+   82                   model.12.cv1.bn.weight     False          256                [256]          1      0.212 torch.float32
+   83                     model.12.cv1.bn.bias     False          256                [256]     -0.746      0.687 torch.float32
+   84                 model.12.cv2.conv.weight     False        98304     [256, 384, 1, 1]   -0.00242     0.0167 torch.float32
+   85                   model.12.cv2.bn.weight     False          256                [256]      0.889      0.201 torch.float32
+   86                     model.12.cv2.bn.bias     False          256                [256]     -0.599      0.554 torch.float32
+   87             model.12.m.0.cv1.conv.weight     False       147456     [128, 128, 3, 3]   -0.00112     0.0125 torch.float32
+   88               model.12.m.0.cv1.bn.weight     False          128                [128]      0.949      0.138 torch.float32
+   89                 model.12.m.0.cv1.bn.bias     False          128                [128]     -0.997       0.52 torch.float32
+   90             model.12.m.0.cv2.conv.weight     False       147456     [128, 128, 3, 3]  -0.000708     0.0115 torch.float32
+   91               model.12.m.0.cv2.bn.weight     False          128                [128]      0.956      0.134 torch.float32
+   92                 model.12.m.0.cv2.bn.bias     False          128                [128]     -0.455      0.485 torch.float32
+   93                 model.15.cv1.conv.weight     False        49152     [128, 384, 1, 1]   -0.00129     0.0195 torch.float32
+   94                   model.15.cv1.bn.weight     False          128                [128]      0.612      0.214 torch.float32
+   95                     model.15.cv1.bn.bias     False          128                [128]     -0.276      0.805 torch.float32
+   96                 model.15.cv2.conv.weight     False        24576     [128, 192, 1, 1]   -0.00136     0.0216 torch.float32
+   97                   model.15.cv2.bn.weight     False          128                [128]      0.609       0.26 torch.float32
+   98                     model.15.cv2.bn.bias     False          128                [128]     -0.377      0.751 torch.float32
+   99             model.15.m.0.cv1.conv.weight     False        36864       [64, 64, 3, 3]    -0.0013      0.018 torch.float32
+  100               model.15.m.0.cv1.bn.weight     False           64                 [64]      0.775      0.123 torch.float32
+  101                 model.15.m.0.cv1.bn.bias     False           64                 [64]     -0.726      0.593 torch.float32
+  102             model.15.m.0.cv2.conv.weight     False        36864       [64, 64, 3, 3]   -0.00114     0.0169 torch.float32
+  103               model.15.m.0.cv2.bn.weight     False           64                 [64]      0.857      0.187 torch.float32
+  104                 model.15.m.0.cv2.bn.bias     False           64                 [64]     -0.246       0.61 torch.float32
+  105                     model.16.conv.weight     False       147456     [128, 128, 3, 3]  -0.000333    0.00873 torch.float32
+  106                       model.16.bn.weight     False          128                [128]      0.971      0.194 torch.float32
+  107                         model.16.bn.bias     False          128                [128]     -0.493      0.392 torch.float32
+  108                 model.18.cv1.conv.weight     False        98304     [256, 384, 1, 1]   -0.00111     0.0128 torch.float32
+  109                   model.18.cv1.bn.weight     False          256                [256]      0.937       0.16 torch.float32
+  110                     model.18.cv1.bn.bias     False          256                [256]     -0.488      0.452 torch.float32
+  111                 model.18.cv2.conv.weight     False        98304     [256, 384, 1, 1]   -0.00119      0.012 torch.float32
+  112                   model.18.cv2.bn.weight     False          256                [256]      0.881        0.3 torch.float32
+  113                     model.18.cv2.bn.bias     False          256                [256]     -0.728      0.527 torch.float32
+  114             model.18.m.0.cv1.conv.weight     False       147456     [128, 128, 3, 3]  -0.000941     0.0102 torch.float32
+  115               model.18.m.0.cv1.bn.weight     False          128                [128]       0.84      0.163 torch.float32
+  116                 model.18.m.0.cv1.bn.bias     False          128                [128]     -0.981      0.525 torch.float32
+  117             model.18.m.0.cv2.conv.weight     False       147456     [128, 128, 3, 3]   -0.00055    0.00946 torch.float32
+  118               model.18.m.0.cv2.bn.weight     False          128                [128]        1.3      0.233 torch.float32
+  119                 model.18.m.0.cv2.bn.bias     False          128                [128]     -0.405      0.492 torch.float32
+  120                     model.19.conv.weight     False       589824     [256, 256, 3, 3]  -0.000249    0.00457 torch.float32
+  121                       model.19.bn.weight     False          256                [256]      0.896      0.161 torch.float32
+  122                         model.19.bn.bias     False          256                [256]     -0.532      0.201 torch.float32
+  123                 model.21.cv1.conv.weight     False       393216     [512, 768, 1, 1]  -0.000635    0.00735 torch.float32
+  124                   model.21.cv1.bn.weight     False          512                [512]       1.02      0.169 torch.float32
+  125                     model.21.cv1.bn.bias     False          512                [512]      -0.61      0.349 torch.float32
+  126                 model.21.cv2.conv.weight     False       393216     [512, 768, 1, 1]  -0.000635    0.00613 torch.float32
+  127                   model.21.cv2.bn.weight     False          512                [512]       1.12       0.24 torch.float32
+  128                     model.21.cv2.bn.bias     False          512                [512]     -0.669      0.276 torch.float32
+  129             model.21.m.0.cv1.conv.weight     False       589824     [256, 256, 3, 3]  -0.000433     0.0052 torch.float32
+  130               model.21.m.0.cv1.bn.weight     False          256                [256]       1.04      0.169 torch.float32
+  131                 model.21.m.0.cv1.bn.bias     False          256                [256]     -0.868      0.359 torch.float32
+  132             model.21.m.0.cv2.conv.weight     False       589824     [256, 256, 3, 3]  -0.000364    0.00493 torch.float32
+  133               model.21.m.0.cv2.bn.weight     False          256                [256]       1.33      0.188 torch.float32
+  134                 model.21.m.0.cv2.bn.bias     False          256                [256]     -0.584      0.302 torch.float32
+  135             model.22.cv2.0.0.conv.weight     False        73728      [64, 128, 3, 3]  -0.000631     0.0101 torch.float32
+  136               model.22.cv2.0.0.bn.weight     False           64                 [64]       1.01       0.36 torch.float32
+  137                 model.22.cv2.0.0.bn.bias     False           64                 [64]     -0.213      0.718 torch.float32
+  138             model.22.cv2.0.1.conv.weight     False        36864       [64, 64, 3, 3]  -0.000335     0.0117 torch.float32
+  139               model.22.cv2.0.1.bn.weight     False           64                 [64]       2.34       1.03 torch.float32
+  140                 model.22.cv2.0.1.bn.bias     False           64                 [64]       1.01      0.623 torch.float32
+  141                  model.22.cv2.0.2.weight     False         4096       [64, 64, 1, 1]   -0.00113     0.0469 torch.float32
+  142                    model.22.cv2.0.2.bias     False           64                 [64]      0.999       1.39 torch.float32
+  143             model.22.cv2.1.0.conv.weight     False       147456      [64, 256, 3, 3]  -0.000331    0.00725 torch.float32
+  144               model.22.cv2.1.0.bn.weight     False           64                 [64]       1.17      0.408 torch.float32
+  145                 model.22.cv2.1.0.bn.bias     False           64                 [64]     -0.108      0.677 torch.float32
+  146             model.22.cv2.1.1.conv.weight     False        36864       [64, 64, 3, 3]  -0.000347     0.0115 torch.float32
+  147               model.22.cv2.1.1.bn.weight     False           64                 [64]       2.48      0.871 torch.float32
+  148                 model.22.cv2.1.1.bn.bias     False           64                 [64]      0.818      0.535 torch.float32
+  149                  model.22.cv2.1.2.weight     False         4096       [64, 64, 1, 1]   -0.00191     0.0534 torch.float32
+  150                    model.22.cv2.1.2.bias     False           64                 [64]      0.998       1.35 torch.float32
+  151             model.22.cv2.2.0.conv.weight     False       294912      [64, 512, 3, 3]  -0.000202    0.00504 torch.float32
+  152               model.22.cv2.2.0.bn.weight     False           64                 [64]       1.44      0.336 torch.float32
+  153                 model.22.cv2.2.0.bn.bias     False           64                 [64]     -0.268      0.599 torch.float32
+  154             model.22.cv2.2.1.conv.weight     False        36864       [64, 64, 3, 3]  -0.000352     0.0102 torch.float32
+  155               model.22.cv2.2.1.bn.weight     False           64                 [64]       2.96      0.746 torch.float32
+  156                 model.22.cv2.2.1.bn.bias     False           64                 [64]      0.852      0.566 torch.float32
+  157                  model.22.cv2.2.2.weight     False         4096       [64, 64, 1, 1]  -0.000902     0.0559 torch.float32
+  158                    model.22.cv2.2.2.bias     False           64                 [64]      0.999       1.26 torch.float32
+  159             model.22.cv3.0.0.conv.weight     False       147456     [128, 128, 3, 3]  -0.000779    0.00717 torch.float32
+  160               model.22.cv3.0.0.bn.weight     False          128                [128]      0.825      0.281 torch.float32
+  161                 model.22.cv3.0.0.bn.bias     False          128                [128]     -0.442      0.623 torch.float32
+  162             model.22.cv3.0.1.conv.weight     False       147456     [128, 128, 3, 3]  -0.000782    0.00649 torch.float32
+  163               model.22.cv3.0.1.bn.weight     False          128                [128]       2.31      0.626 torch.float32
+  164                 model.22.cv3.0.1.bn.bias     False          128                [128]       1.17       1.32 torch.float32
+  165                  model.22.cv3.0.2.weight     False          384       [3, 128, 1, 1]   -0.00748      0.052 torch.float32
+  166                    model.22.cv3.0.2.bias     False            3                  [3]      -8.26    0.00902 torch.float32
+  167             model.22.cv3.1.0.conv.weight     False       294912     [128, 256, 3, 3]  -0.000323    0.00558 torch.float32
+  168               model.22.cv3.1.0.bn.weight     False          128                [128]       1.02      0.302 torch.float32
+  169                 model.22.cv3.1.0.bn.bias     False          128                [128]     -0.307      0.741 torch.float32
+  170             model.22.cv3.1.1.conv.weight     False       147456     [128, 128, 3, 3]  -0.000929    0.00614 torch.float32
+  171               model.22.cv3.1.1.bn.weight     False          128                [128]       2.41       0.99 torch.float32
+  172                 model.22.cv3.1.1.bn.bias     False          128                [128]       1.05       1.13 torch.float32
+  173                  model.22.cv3.1.2.weight     False          384       [3, 128, 1, 1]     -0.013     0.0549 torch.float32
+  174                    model.22.cv3.1.2.bias     False            3                  [3]      -6.88    0.00902 torch.float32
+  175             model.22.cv3.2.0.conv.weight     False       589824     [128, 512, 3, 3]   -0.00019     0.0038 torch.float32
+  176               model.22.cv3.2.0.bn.weight     False          128                [128]       1.17      0.273 torch.float32
+  177                 model.22.cv3.2.0.bn.bias     False          128                [128]     -0.402      0.654 torch.float32
+  178             model.22.cv3.2.1.conv.weight     False       147456     [128, 128, 3, 3]  -0.000761     0.0053 torch.float32
+  179               model.22.cv3.2.1.bn.weight     False          128                [128]       2.64      0.963 torch.float32
+  180                 model.22.cv3.2.1.bn.bias     False          128                [128]      0.949       1.14 torch.float32
+  181                  model.22.cv3.2.2.weight     False          384       [3, 128, 1, 1]    -0.0135      0.053 torch.float32
+  182                    model.22.cv3.2.2.bias     False            3                  [3]       -5.5    0.00226 torch.float32
+  183                 model.22.dfl.conv.weight     False           16        [1, 16, 1, 1]        7.5       4.76 torch.float32
+Model summary: 225 layers, 11,136,761 parameters, 0 gradients, 28.7 GFLOPs
