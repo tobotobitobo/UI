@@ -19,14 +19,17 @@ generovanie uzlových grafov vhodných pre grafové siete.
 Študenti si osvoja teoretické pozadie rozpoznania obrazu a základy
 grafových konvolučných sietí
 * **Kľúčové úlohy:**
+    * Príprava trénovacích dát
     * Výber vhodných algoritmov na riešenie problému
-    * Úprava vstupnej vrstvy vopred implementovaných neurónových sietí pre rôzne typy reprezentácie stavového priestoru, interpretácia výstupov a spojenie s herným prostredím, čím študenti dokážu pochopenie problematiky a kódu
+    * Použitie a modifikácia existujúcich algoritmov využívajúcich neurónové
+siete, transformácia výstupov na vhodnú reprezentáciu
+
     * Tréning modelov
     * Testovanie a vyhodnotenie výkonnosti algoritmov
 
 ### 2. Očakávané výstupy
 * **Výskumná práca:** Základná práca zhrňujúca použité metódy, vrátane:
-    * Prehľad základných algoritmov používaných v reinforcement learningu
+    * Prehľad základných algoritmov používaných na rozpoznanie obrazu
     * Popis krokov riešenia problému a hodnotenia ich metrík
     * Spracovanie a prezentácia výsledkov
 * **Kód a systém:**
