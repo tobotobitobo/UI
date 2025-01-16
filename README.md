@@ -5,12 +5,19 @@ Interaktívna firma na predmet Umelá inteligencia
 
 ## Cieľ projektu
 
-Cieľom tohto projektu je porovnanie úspešnosti rôznych typov reinforcement learning (RL) algoritmov pri hraní niekoľkých typov hier v prostredí Gridworld s rastúcou náročnosťou. Študenti tak získajú praktické skúsenosti s porozumením RL algoritmov, tréningom a vyhodnotením systému.
+Cieľom tohoto projektu je detekcia a klasifikácia objektov na snímkach z kamery s
+cieľom ich ďalšieho použitia . Študenti tak získajú praktické skúsenosti s porozumením
+algoritmov rozpoznávania obrazu a s prácou s dátami, tréningom a vyhodnotením
+systému
 
 ## Prehľad projektu
 
 ### 1. Prehľad systému
-* **Prehľad systému:** Projekt zahŕňa prispôsobenie a použitie existujúcich implementácií algoritmov rôznych typov RL (value-based, policy-based, actor-critic) založených na báze neurónových sietí pre sadu vopred definovaných hier a reprezentácií stavového priestoru.
+* **Prehľad systému:** Projekt zahŕňa prispôsobenie a použitie existujúcich implementácií
+algoritmov rozpoznania obrazu a následným spracovaním výstupu na
+generovanie uzlových grafov vhodných pre grafové siete.
+Študenti si osvoja teoretické pozadie rozpoznania obrazu a základy
+grafových konvolučných sietí
 * **Kľúčové úlohy:**
     * Výber vhodných algoritmov na riešenie problému
     * Úprava vstupnej vrstvy vopred implementovaných neurónových sietí pre rôzne typy reprezentácie stavového priestoru, interpretácia výstupov a spojenie s herným prostredím, čím študenti dokážu pochopenie problematiky a kódu
